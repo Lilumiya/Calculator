@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .btn-normal {
+    @apply text-white text-2xl w-[100px] p-5 border border-violet-500 rounded-xl hover:border-violet-700 transition hover:scale-105
+  }
+  
+}
+
